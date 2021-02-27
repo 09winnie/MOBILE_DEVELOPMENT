@@ -1,13 +1,20 @@
 fun main() {
-    val name:String="melannieTamara"
-    var age=23
-    val phoneNumber="0750546787"
-    var weight="57"+ "kgs"
-    val nationality:String ="kenyan"
-    val  kenyan= false
-    println(name)
-    println(age)
-    println(phoneNumber)
-    println(weight)
-    println(kenyan)
+ add()
+    name()
+    var result=multiplication(10,20)
+    print(result)
+}
+fun add(){
+    var num1=10
+    var num2=20
+    var sum=num1+num2
+    print(sum)
+}
+fun name(){
+    print ("hello AnitaB")
+}
+fun multiplication(num1:Int,num2:Int):Int{
+    var multiply=num1*num2
+    return multiply
+
 }
